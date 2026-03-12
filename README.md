@@ -144,7 +144,17 @@ home-loan-default-risk-predictor/
 ├── requirements.txt
 └── .gitignore
 ```
+## 🖥️ App Features
 
+The Gradio web app (`src/app.py`) provides two ways to predict default risk:
+
+| Feature | Description |
+|---|---|
+| 📝 Manual Input | Enter customer details manually (income, credit amount, age etc.) |
+| 📂 CSV Upload | Upload multiple customer records at once for batch prediction |
+| 🔴 High Risk | Shows default probability ≥ 45% — Likely Default |
+| 🟢 Low Risk | Shows default probability < 45% — Likely Safe |
+| 🔗 Share via Link | Share prediction results instantly via link |
 ---
 
 ## ⚙️ Installation & Run Locally
