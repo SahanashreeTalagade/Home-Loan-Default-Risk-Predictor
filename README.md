@@ -1,5 +1,12 @@
 # 🏠 Home Loan Default Risk Predictor
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
+![XGBoost](https://img.shields.io/badge/Model-XGBoost-green)
+![Gradio](https://img.shields.io/badge/App-Gradio-orange?logo=gradio)
+![HuggingFace](https://img.shields.io/badge/Demo-HuggingFace-yellow?logo=huggingface)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Status](https://img.shields.io/badge/Status-Deployed-brightgreen)
+
 A machine learning project to predict whether a home loan applicant is likely to **default**, built using XGBoost on the Home Credit dataset — with a real-time web app deployed on Hugging Face Spaces.
 
 ---
